@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "GAJira",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://generalassembly.atlassian.net/*"
+      ],
+      "js": ["content.js", "vendor/jquery.min.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    "images/basket-full-of-kittens.jpg"
+  ]
+}
