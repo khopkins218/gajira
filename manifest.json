@@ -12,5 +12,9 @@
   ],
   "web_accessible_resources": [
     "images/basket-full-of-kittens.jpg"
-  ]
+  ],
+  "permissions": [
+    "storage"
+  ],
+  "options_page": "options.html"
 }

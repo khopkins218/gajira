@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GAJira Options</title>
+    <style>
+      body {
+        padding: 24px;
+        max-width: 800px;
+        margin: 0 auto;
+        font-size: 16px;
+      }
+      input {
+        font-size: 16px;
+        margin-top: 6px;
+        margin-bottom: 6px;
+        padding: 12px;
+        width: 480px;
+        max-width: 100%;
+      }
+      button {
+        font-size: 16px;
+        padding: 12px;
+      }
+      .option-group {
+        margin-top: 12px;
+        margin-bottom: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>GAJira Options</h1>
+
+    <div class="option-group">
+      <label>
+        Background image (enter URL to image)
+        <br>
+        <input id="background" type="text">
+      </label>
+    </div>
+
+    <div class="option-group">
+      <button id="save">Save Preferences</button>
+      <button id="default">Revert to Default</button>
+    </div>
+
+    <div id="status"></div>
+
+    <script src="options.js"></script>
+  </body>
+</html>
